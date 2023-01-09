@@ -1,0 +1,18 @@
+<mvc:View controllerName="project1.project1.controller.View1" xmlns:mvc="sap.ui.core.mvc" 
+displayBlock="true" xmlns="sap.m" xmlns:f="sap.ui.layout.form" >
+    <f:SimpleForm editable="true" id="myForm">
+    <f:content>
+    <Label  id="id1" text="EmpId"/>
+    <Input id="idEmpID" value="{/empStr/empId}" width="200px" maxLength="5"/>
+    <Label id="id2" text="EmpName"/>
+    <Input id="idEmpName" value="Anubhav"  width="400px"/>
+    <Label id="id3" text="Salary"/>
+    <Input id="idSalary" value="6500" width="180px"/>
+    <Label id="id4" text="Currency"/>
+    <Input id="idCurrency" value="INR" width="120px"/>
+    </f:content>
+    </f:SimpleForm>
+    <Button id="idButton" text="show" press="onShow"/>
+    <Button id="Id1Button" text="Click Me" press="clickMe"/>
+    <Button id="idButton3" text="Save" press="onSave"/>
+</mvc:View>
