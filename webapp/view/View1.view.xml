@@ -16,4 +16,5 @@ displayBlock="true" xmlns="sap.m" xmlns:f="sap.ui.layout.form" >
     <Button id="Id1Button" text="Click Me" press="clickMe"/>
     <Button id="idButton3" text="Save" press="onSave"/>
     <Button id="idButton4" text="Cancel" press="onCancel"/>
+    <Button id="idButton5" text="Update" press="onUpdate"/>
 </mvc:View>
